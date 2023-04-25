@@ -1345,10 +1345,10 @@ line-height: 1.5;
   color: #8E8F99;
 }
 
-/*====== adaptiv ======*/
+/*====== adaptiv desktop ======*/
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+/* (min-width: 768px) and (max-width: 1157px) */
 /*====== header start ======*/
 .header-class {
   max-width: 768px;
@@ -1546,4 +1546,116 @@ line-height: 1.5;
 }
 
 }
-/*========== end adaptive ======*/
+/*========== end adaptive desktop======*/
+
+/*====== adaptiv mobile======*/
+@media screen and (min-width: 50px) and (max-width: 767px) {
+
+/*====== Header start======*/
+.header-class {
+  max-width: 428px;
+  background-color: tomato;
+  padding-top: 24px;
+  padding-bottom: 22px;
+}
+
+/* div */
+
+/*====== container ======*/
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #4ae2b9;
+}
+
+/*====== Ul header hidden ======*/
+.ul-header-index {
+  display: none;
+}
+.addres_header {
+  display: none;
+}
+
+/*====== Header end ======*/
+
+/*====== section 1 ======*/
+.sectionindex {
+  background-color: tomato;
+  max-width: 428px;
+  max-height: 428px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+/*====== H 1 ======*/
+.hhindex {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+    width: 320px;
+}
+
+/* button */
+.buttonorder {
+  margin-top: 72px;
+}
+/*====== section 1 end======*/
+
+/*====== section 1 start ======*/
+.sectiontwoindex {
+  background-color: tomato;
+  max-width: 428px;
+  /* max-height: 428px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+/*====== UL ======*/
+.list-section-two {
+  display: flex;
+  row-gap: 72px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* svg hidden */
+.div-li-one-svg {
+  display: none;
+}
+
+/*======= LI ======*/
+.li-one-tablet {
+  display: inline-block;
+}
+
+.li-two-tablet {
+  display: inline-block;
+}
+
+.li-three-tablet {
+  display: inline-block;
+}
+
+.li-four-tablet {
+  display: inline-block;
+}
+
+/* zagolovki li */
+.sectiontwoh {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+/* p li */
+.sectiontwo-p {
+  font-weight: 500;
+}
+
+
+
+
+
+
+}
+/*====== end adaptive mobile ======*/
