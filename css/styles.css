@@ -64,12 +64,7 @@ a {
 }
 
 
-/* @media screen and (max-widht: 768px) {
-  .container {
-background-color: #31D0AA;
-    }
-  
-} */
+
 
 
 
@@ -85,6 +80,8 @@ background-color: #31D0AA;
   height: 72px;
   border-bottom: 1px solid #E7E9FC;
   display: flex;
+  width: 1128px;
+  margin: 0 auto;
 }
 
 .logo{
@@ -277,6 +274,34 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   max-width: 1158px;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
+/* .sectiontwoindex {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  max-width: 1158px;
+  margin: 0 auto;
+} */
+
+ /* .div-li-one-svg {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F4F4FD;
+   margin-bottom: 8px;
+   width: 264px;
+   height: 112px;
+ } */
+
+
+
+
+
 
 /*---H2---*/
 .hsection {
@@ -473,13 +498,15 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .section-five-index{
   padding-top: 120px;
   padding-bottom: 120px;
+  max-width: 1158px;
+  margin: 0 auto;
 }
 
 /*---H2 section5---*/
 .h-two-section-five{
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -1260,6 +1287,7 @@ line-height: 1.5;
 
 .div-flex{
   display: flex;
+  justify-content: center;
 }
 
 
@@ -1316,3 +1344,206 @@ line-height: 1.5;
   letter-spacing: 0.04em;
   color: #8E8F99;
 }
+
+/*====== adaptiv ======*/
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+
+/*====== header start ======*/
+.header-class {
+  max-width: 768px;
+}
+
+.ul-header-index {
+  margin-left: 120px;
+}
+
+/*====== UL adress ======*/
+.ul-adress-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.li-adress-header {
+  display: inline-block;
+}
+
+.mail {
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+}
+/*====== header end ======*/
+
+/*====== section 1 start ======*/
+.sectionindex {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+/*====== button order service ======*/
+.buttonorder {
+  margin-top: 36px;
+}
+
+/*====== section 1 end ======*/
+
+/*====== section 2 start ======*/
+.sectiontwoindex {
+  /* background-color: tomato; */
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.container {
+  max-width: 768px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* background-color: #4ae2b9; */
+}
+
+/*====== ul ======*/
+.list-section-two {
+  display: block;
+}
+
+  /*====== 1 li ======*/
+.li-one-tablet {
+  display: inline-block;
+  width: 356px;
+  margin-bottom: 72px;
+  margin-right: 21px;
+}
+
+.div-li-one-svg {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*=== hiden ===*/
+.hsection {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ====== li 2 ======*/
+.li-two-tablet {
+  display: inline-block;
+  width: 356px;
+}
+
+/*====== li 3 ======*/
+.li-three-tablet {
+  display: inline-block;
+  width: 356px;
+}
+
+/*====== li 4 ======*/
+.li-four-tablet {
+  display: inline-block;
+  width: 356px;
+}
+/*====== end section 2 ======*/
+
+/*====== section 3 start ======*/
+.sectionthreeindex {
+  display: none;
+}
+
+/*====== section 4 start ======*/
+.sectionfourindex {
+  /* background-color: tomato; */
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+/*====== H 3 ======*/
+.section-four {
+  margin-bottom: 72px;
+}
+
+/*====== ul ======*/
+.ul-section-four {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*====== li 1 ======*/
+.sectionfour-li {
+  display: inline-block;
+  margin-bottom: 64px;
+  margin-right: 24px;
+}
+/*====== section 3 end ======*/
+
+/*====== section 4 start ======*/
+.section-five-index {
+  /* background-color: tomato; */
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+/*===== H 2 ======*/
+.h-two-section-five{
+  margin-bottom: 72px;
+}
+
+/*====== UL  ======*/
+.ul-section-five {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  row-gap: 72px;
+}
+
+/*====== LI ======*/
+.li-section-five {
+  display: inline-block;
+  width: 168px;
+}
+/*====== section 4 end ======*/
+
+/*====== footer start ======*/
+.fon-footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  height: 456px;
+}
+
+.div-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  row-gap: 72px;
+}
+
+.div-twoo-footer {
+  margin: 0;
+}
+.div-three-footer {
+  margin-left: 0;
+  margin-right: 44px;
+}
+
+}
+/*========== end adaptive ======*/
