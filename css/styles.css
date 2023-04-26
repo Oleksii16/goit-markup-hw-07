@@ -80,7 +80,7 @@ a {
   height: 72px;
   border-bottom: 1px solid #E7E9FC;
   display: flex;
-  width: 1128px;
+  max-width: 1128px;
   margin: 0 auto;
 }
 
@@ -1554,7 +1554,7 @@ line-height: 1.5;
 /*====== Header start======*/
 .header-class {
   max-width: 428px;
-  background-color: tomato;
+  /* background-color: tomato; */
   padding-top: 24px;
   padding-bottom: 22px;
 }
@@ -1566,7 +1566,7 @@ line-height: 1.5;
   max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  background-color: #4ae2b9;
+  /* background-color: #4ae2b9; */
 }
 
 /*====== Ul header hidden ======*/
@@ -1581,7 +1581,7 @@ line-height: 1.5;
 
 /*====== section 1 ======*/
 .sectionindex {
-  background-color: tomato;
+  /* background-color: tomato; */
   max-width: 428px;
   max-height: 428px;
   padding-top: 112px;
@@ -1604,7 +1604,7 @@ line-height: 1.5;
 
 /*====== section 1 start ======*/
 .sectiontwoindex {
-  background-color: tomato;
+  /* background-color: tomato; */
   max-width: 428px;
   /* max-height: 428px; */
   padding-top: 96px;
@@ -1651,6 +1651,122 @@ line-height: 1.5;
 .sectiontwo-p {
   font-weight: 500;
 }
+
+
+/*=== section 3 hidden ===*/
+.sectionthreeindex {
+  display: none;
+}
+
+/*====== section 4 ======*/
+.sectionfourindex {
+  max-width: 428px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+/* UL  */
+.ul-section-four {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 72px;
+}
+
+/* LI */
+.sectionfour-li {
+  display: inline-block;
+}
+
+
+/*====== section 5 ======*/
+.section-five-index {
+  /* background-color: tomato; */
+  max-width: 428px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+/* UL */
+.ul-section-five {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  row-gap: 72px;
+}
+
+.li-section-five {
+display: inline-block;
+}
+
+.a-section-five-svg {
+    width: 190px;
+}
+
+/*====== footer ======*/
+.fon-footer {
+  /* background-color: tomato; */
+  max-width: 428px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  margin: 0 auto;
+  height: 606px;
+}
+
+.div-flex {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div-twoo-footer {
+  display: inline-block;
+  margin: 0;
+}
+
+.div-three-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+}
+.h-two-svg-footer {
+  text-align: center;
+}
+
+.h-two-svg-footer {
+  text-align: center;
+}
+
+.p-div-footer-style {
+  display: inline-block;
+
+}
+.form-div-three-footer {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.input-div-footer-style {
+  width: 398px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
