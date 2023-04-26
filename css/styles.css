@@ -1349,6 +1349,7 @@ line-height: 1.5;
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 /* (min-width: 768px) and (max-width: 1157px) */
+
 /*====== header start ======*/
 .header-class {
   max-width: 768px;
@@ -1380,6 +1381,14 @@ line-height: 1.5;
 .sectionindex {
   padding-top: 112px;
   padding-bottom: 112px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .sectionindex {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/section2/Dark-bg-tab-2x.jpg');
+  }
 }
 
 /*====== button order service ======*/
@@ -1586,6 +1595,14 @@ line-height: 1.5;
   max-height: 428px;
   padding-top: 112px;
   padding-bottom: 112px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .sectionindex {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/section2/Dark-bg-mob-2x\ .jpg');
+  }
 }
 
 /*====== H 1 ======*/
