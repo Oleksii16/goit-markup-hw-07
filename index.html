@@ -16,7 +16,16 @@
 
 <body>
   <header class="header-class">
+
+
+
+
     <div class="container header-div">
+
+
+
+
+
       <nav class="naw-header-index">
         <a href="./index.html" class="logo link logo-header">Web<span class="class-spanhead">Studio</span></a>
         <ul class="list ul-header-index">
@@ -31,6 +40,13 @@
           </li>
         </ul>
       </nav>
+
+      <button data-modal-open-mob type="button" class="burger-hide">
+        <svg class="burger">
+          <use href="./images/burger-mune.svg#icon-Vector"></use>
+        </svg>
+      </button>
+
       <address class="addres_header">
         <ul class="list ul-adress-header">
           <li class="li-adress-header">
@@ -41,6 +57,96 @@
           </li>
         </ul>
       </address>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="mob-menu" data-modal-mob>
+      <div class="container" hhhiden>
+
+        <!-- <button type="button" class="mob-close">x</button> -->
+
+        <button class="div-border" data-modal-close-mob><svg class="svg-style  backdrop">
+            <use class="use-close-style" href="./images/close-modal/kszyz.svg#icon-Vector"></use>
+          </svg>
+        </button>
+
+        <nav class="mob-naw-header-index">
+          <ul class="list mob-ul-header-index">
+            <li>
+              <a href="./index.html" class="link mob-index-link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link mob-index-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="link mob-index-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="mob-adress container">
+        <address class="mob-addres_header">
+          <ul class="list mob-ul-adress-header">
+            <li class="mob-li-adress-header">
+              <a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a>
+            </li>
+            <li class="li-adress-header">
+              <a href="tel:+110001111111" class="link mail mob-number">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+
+        <ul class="mob-social-svg-icons list">
+          <li class="social-svg-li">
+            <a href="" class="a-social-svg">
+              <svg height="16" width="16">
+                <use href="./images/index-icons/social-icons-index.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-svg-li">
+            <a href="" class="a-social-svg">
+              <svg height="16" width="16">
+                <use href="./images/index-icons/social-icons-index.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-svg-li">
+            <a href="" class="a-social-svg">
+              <svg height="16" width="16">
+                <use href="./images/index-icons/social-icons-index.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-svg-li">
+            <a href="" class="a-social-svg">
+              <svg height="16" width="16">
+                <use href="./images/index-icons/social-icons-index.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
     </div>
   </header>
   <main>
@@ -141,7 +247,8 @@
               </svg>
             </div>
             <h3 class="sectiontwoh h-li-one">Strategy</h3>
-            <p class="sectiontwo-p p-our-goal">Our goal is to identify the business problem to walk away with the
+            <p class="sectiontwo-p p-our-goal p-design">Our goal is to identify the business problem to walk away with
+              the
               perfect and
               creative solution.</p>
           </li>
@@ -153,7 +260,8 @@
               </svg>
             </div>
             <h3 class="sectiontwoh h-li-two">Punctuality</h3>
-            <p class="sectiontwo-p p-bring-the">Bring the key message to the brand's audience for the best price within
+            <p class="sectiontwo-p p-bring-the p-design">Bring the key message to the brand's audience for the best
+              price within
               the shortest
               possible time.</p>
           </li>
@@ -165,7 +273,8 @@
               </svg>
             </div>
             <h3 class="sectiontwoh h-three-li">Diligence</h3>
-            <p class="sectiontwo-p p-li-three">Research and confirm brands that present the strongest digital growth
+            <p class="sectiontwo-p p-li-three p-design">Research and confirm brands that present the strongest digital
+              growth
               opportunities
               and minimize risk.</p>
           </li>
@@ -207,7 +316,8 @@
         <h2 class="section-four h-ourteam">Our Team</h2>
         <ul class="list ul-section-four">
           <li class="sectionfour-li ">
-            <img src="./images/section3/mark-guererro.jpg" alt="human" width="264" height="260" />
+            <img srcset="./images/section3/guerrero-xx.jpg 2x" src="./images/section3/mark-guererro.jpg" alt="human"
+              width="264" height="260" />
             <div class="div-four-section-index">
               <h3 class="sectionthree-h h-three-li-one">Mark Guerrero</h3>
               <p class="sectiontwo-p p-section-four">Product Designer</p>
@@ -247,7 +357,8 @@
             </div>
           </li>
           <li class="sectionfour-li">
-            <img src="./images/section3/tom-ford.jpg" alt="human" width="264" height="260" />
+            <img srcset="./images/section3/ford-xx.jpg 2x" src="./images/section3/tom-ford.jpg" alt="human" width="264"
+              height="260" />
             <div class="div-four-section-index">
               <h3 class="sectionthree-h">Tom Ford</h3>
               <p class="sectiontwo-p p-section-four">Frontend Developer</p>
@@ -284,7 +395,8 @@
             </div>
           </li>
           <li class="sectionfour-li">
-            <img src="./images/section3/camila-garcia.jpg" alt="girl" width="264" height="260" />
+            <img srcset="./images/section3/garcia-xx.jpg 2x" src="./images/section3/camila-garcia.jpg" alt="girl"
+              width="264" height="260" />
             <div class="div-four-section-index">
               <h3 class="sectionthree-h">Camila Garcia</h3>
               <p class="sectiontwo-p p-section-four">Marketing</p>
@@ -321,7 +433,8 @@
             </div>
           </li>
           <li class="sectionfour-li">
-            <img src="./images/section3/daniel-wilson.jpg" alt="human" width="264" height="260" />
+            <img srcset="./images/section3/ford-xx.jpg 2x" src="./images/section3/daniel-wilson.jpg" alt="human"
+              width="264" height="260" />
             <div class="div-four-section-index">
               <h3 class="sectionthree-h">Daniel Wilson</h3>
               <p class="sectiontwo-p p-section-four">UI Designer</p>
@@ -481,7 +594,7 @@
     </div>
   </footer>
   <script src="./js/modal.js"></script>
-
+  <script src="./js/mob.js"></script>
 </body>
 
 
