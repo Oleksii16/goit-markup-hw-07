@@ -1553,18 +1553,16 @@ line-height: 1.5;
 }
 
 }
-/*========== end adaptive desktop======*/
+/*========== end adaptive desktop ======*/
 
-/*====== adaptiv mobile======*/
+/*====== adaptiv mobile ======*/
 @media screen and (min-width: 50px) and (max-width: 767px) {
 
 /*--- Header start---*/
 .header-class {
-  /* max-width: 428px; */
   /* background-color: tomato; */
   padding-top: 24px;
   padding-bottom: 22px;
-  /* margin: 0; */
 }
 
 /*--- container ---*/
@@ -1574,7 +1572,6 @@ line-height: 1.5;
   margin: 0 auto;
   /* background-color: #4ae2b9; */
 }
-
 
 /*====== Ul header hidden ======*/
 .ul-header-index {
@@ -1652,7 +1649,8 @@ margin-bottom: 32px;
 
 .mob-social-svg-icons {
   display: flex;
-  gap: 56px;
+  justify-content: space-between;
+  /* gap: 56px; */
 }
 
 .mob-ul-adress-header {
@@ -1661,6 +1659,17 @@ margin-bottom: 32px;
   row-gap: 64px;
   align-content: flex-start;
 }
+
+.button-burger-style {
+  background-color: white;
+  line-height: 0;
+  padding: 0;
+}
+
+.burgeeeer {
+  stroke: #2E2F42;
+}
+
 
 /*====== Header end ======*/
 
