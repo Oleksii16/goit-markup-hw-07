@@ -20,11 +20,10 @@
 
 
 
+
+
+
     <div class="container header-div">
-
-
-
-
 
       <nav class="naw-header-index">
         <a href="./index.html" class="logo link logo-header">Web<span class="class-spanhead">Studio</span></a>
@@ -40,13 +39,6 @@
           </li>
         </ul>
       </nav>
-
-      <button data-modal-open-mob type="button" class="burger-hide">
-        <svg class="burger">
-          <use href="./images/burger-mune.svg#icon-Vector"></use>
-        </svg>
-      </button>
-
       <address class="addres_header">
         <ul class="list ul-adress-header">
           <li class="li-adress-header">
@@ -57,6 +49,18 @@
           </li>
         </ul>
       </address>
+
+
+
+      <button type="button" class="burger-hide" mob-data-menu-open>
+        <svg class="burger">
+          <use href="./images/burger-mune.svg#icon-Vector"></use>
+        </svg>
+      </button>
+
+
+
+
     </div>
 
 
@@ -66,12 +70,12 @@
 
 
 
-    <div class="mob-menu" data-modal-mob>
-      <div class="container" hhhiden>
+    <div class="mob-menu">
+      <div class="container is-hidden" mob-data-menu>
 
         <!-- <button type="button" class="mob-close">x</button> -->
 
-        <button class="div-border" data-modal-close-mob><svg class="svg-style  backdrop">
+        <button class="div-border"><svg class="svg-style  backdrop">
             <use class="use-close-style" href="./images/close-modal/kszyz.svg#icon-Vector"></use>
           </svg>
         </button>
@@ -145,12 +149,11 @@
 
 
     </div>
-    </div>
-
-    </div>
+    <!-- </div>
+    </div> -->
   </header>
   <main>
-    <!--SECTION 1-->
+    <!-- SECTION 1 -->
     <section class="sectionindex">
       <div class="container div-section-one">
         <h1 class="hhindex h-one-section">Effective Solutions
